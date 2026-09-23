@@ -113,6 +113,11 @@ header ul li {
 #skills .skill-list .content img {
   width: 100px;
 }
+@media screen and (max-width: 600px) {
+  #skills .skill-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
 /* Contact */
 #contact {
